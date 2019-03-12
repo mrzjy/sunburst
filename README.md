@@ -22,6 +22,12 @@ parser.add_argument('-adjust_ratio', help='the total ratio taken up by child nod
                     type=float, default=0.65)
 ~~~
 
+Simple run in a console
+~~~python
+python Analysis.py -read=example.txt
+~~~
+
+
 The arguments are rather simple despite maybe the last two:
 adjust_value is a boolean value (1 or 0) indicating whether or not to adjust the ngram value for better visualization. It's recommanded when visualizing ngrams from a large corpus, for the distribution are always too sparse to visualize. When adjust_value=1, all sub-words of an ngram will be adjusted to take up adjust_ratio of radian of the father-word.
 
