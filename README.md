@@ -23,14 +23,10 @@ parser.add_argument('-adjust_ratio', help='the total ratio taken up by child nod
 ~~~
 
 The arguments are rather simple despite maybe the last two:
-adjust_value is a boolean value (1 or 0) indicating whether or not to adjust the ngram value for better visualization. It's recommanded when visualizing ngrams from a large corpus, for the distribution are always too sparse to visualize. When adjust_value=1, all sub-words of an ngram will be adjusted to take up adjust_ratio of the father-word.
+adjust_value is a boolean value (1 or 0) indicating whether or not to adjust the ngram value for better visualization. It's recommanded when visualizing ngrams from a large corpus, for the distribution are always too sparse to visualize. When adjust_value=1, all sub-words of an ngram will be adjusted to take up adjust_ratio of radian of the father-word.
 
 See the below two figures (representing the same distribution) for a straight-forward understanding.
-
-
-<center><img src="img/sunburst.png"  height="600" width="600"></center>
-<center>Fig 2：Adjusted 3-gram visualization (adjust_ratio=0.9) for example.txt</center>
-
-
-<center><img src="img/sunburst_adjust.png"  height="600" width="600"></center>
-<center>Fig 3：Adjusted 3-gram visualization (adjust_ratio=0.65) for example.txt</center>
+<center class="half">
+<img src="img/sunburst.png"  height="400" width="400"><img src="img/sunburst_adjust.png"  height="400" width="400">
+</center>
+<center>Fig 2：Adjusted 3-gram visualization (adjust_ratio=0.9 (left) and adjust_ratio=0.65 (right)) for example.txt</center>
