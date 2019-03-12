@@ -27,6 +27,7 @@ Simple run in a console
 python Analysis.py -read=example.txt
 ~~~
 
+The ngrams are stored through Trie structure, which is later pruned based on max_display_num and min_count arguments.
 
 The arguments are rather simple despite maybe the last two:
 adjust_value is a boolean value (1 or 0) indicating whether or not to adjust the ngram value for better visualization. It's recommanded when visualizing ngrams from a large corpus, for the distribution are always too sparse to visualize. When adjust_value=1, all sub-words of an ngram will be adjusted to take up adjust_ratio of radian of the father-word.
