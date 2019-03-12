@@ -27,6 +27,6 @@ adjust_value is a boolean value (1 or 0) indicating whether or not to adjust the
 
 See the below two figures (representing the same distribution) for a straight-forward understanding.
 <center class="half">
-<img src="img/sunburst.png"  height="400" width="400"><img src="img/sunburst_adjust.png"  height="400" width="400">
+<img src="img/adjust.png">
 </center>
 <center>Fig 2：Adjusted 3-gram visualization (adjust_ratio=0.9 (left) and adjust_ratio=0.65 (right)) for example.txt</center>
