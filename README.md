@@ -1,6 +1,6 @@
 # sunburst
 
-A simple Python implementation of ngram sunburst visualization showed in this paper:
+A simple Python implementation of ngram sunburst (nested pie chart) visualization showed in this paper:
 CoQA: A Conversational Question Answering Challenge, 2018 (<https://arxiv.org/pdf/1808.07042.pdf>)
 
 With its beautiful "Figure 3: Distribution of trigram prefixes of questions in SQuAD and CoQA" as follows:
